@@ -45,7 +45,7 @@ readonly class SMSService implements SMSServiceInterface
             throw new Exception($error);
         }
 
-        return false;
+        return true;
     }
 
     private function gerError(mixed $data): ?string
